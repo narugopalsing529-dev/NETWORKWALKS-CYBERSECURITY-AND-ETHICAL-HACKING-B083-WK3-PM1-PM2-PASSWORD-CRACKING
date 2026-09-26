@@ -75,7 +75,7 @@ It streams its attempts on screen as it goes (`Trying: service`, `Trying: canada
 |------|----------|------------------------|
 | My Locked PDF1.pdf | `password1` | 91 |
 | My Locked PDF2.pdf | `password1` | 91 |
-| My Locked PDF3.pdf | `1qaz2wsx` |  |
+| My Locked PDF3.pdf | `1qaz2wsx` | 35 |
 
 Same last step as Module 1 for each: open the PDF, type in its password, done.
 
