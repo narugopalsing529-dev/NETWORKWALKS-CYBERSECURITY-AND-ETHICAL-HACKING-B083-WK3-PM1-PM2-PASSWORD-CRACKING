@@ -92,6 +92,20 @@ Both modules land on the exact same three passwords through the exact same two-s
 - `1qaz2wsx` looks more "complex" than `password1` at a glance, but it's a well-known keyboard-walk pattern and it was still in a 100-word common-password list. Complexity that follows a predictable pattern isn't the same as actual randomness.
 - The extraction step matters as much as the cracking step. Whether it's `pdf2john` on the command line or a browser tool doing the same thing under the hood, you can't crack a hash you haven't pulled out of the file first.
 
+## Repo layout
+
+```
+.
+├── module1-jtr-johnny/
+│   ├── screenshots/
+│   └── outputs/
+│       ├── hash1.txt
+│       ├── hash2.txt
+│       └── hash3.txt
+└── module2-networkwalks-tools/
+    └── screenshots/
+```
+
 ## Disclaimer
 
 This is for learning only. The PDFs cracked here were practice files Networkwalks provided specifically for this lab, with deliberately weak passwords. Don't run any of this against a file or an account you don't own or don't have permission to test.
